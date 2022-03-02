@@ -1,3 +1,8 @@
 export default function Root(props) {
-  return <section>{props.name} is mounted!</section>;
+  return (
+    <section>
+      <a href="angular2">Angular app</a> |{" "}
+      <a href="angularjs">Angular.js app</a>
+    </section>
+  );
 }
